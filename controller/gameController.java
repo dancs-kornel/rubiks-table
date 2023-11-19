@@ -60,7 +60,6 @@ public class gameController {
         } else {
             index = selected.y;
         }
-        System.out.println(direction);
 
         this.board.makeMove(direction, index);
 
